@@ -1,0 +1,205 @@
+:host {
+  display: block;
+}
+
+.button {
+  min-width: 328px;
+  max-width: 340px;
+  margin: 16px;
+}
+
+
+.button:hover,
+.button:active {
+  transition: var(--transition-links);
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: 2px solid;
+  transition: var(--transition-links);
+  outline-color: var(--primary-color-base-01);
+}
+
+
+/* PRIMARY LARGE */
+.button-primary-large {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+
+  color: var(--light-color-base-01);
+
+  border-radius: var(--border-radius-small);
+  border: var(--border-widths-none);
+  background-color: var(--primary-color-base-02);
+  padding: var(--spacing-stretch-middle);
+}
+
+.button-primary-large:hover {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+
+
+  color: var(--light-color-base-01);
+
+  border-radius: var(--border-radius-small);
+  border: var(--border-widths-none);
+  background-color: var(--primary-color-base-02);
+  padding: var(--spacing-stretch-middle);
+
+  box-shadow: var(--shadow-3);
+}
+
+.button-primary-large:focus {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+
+  color: var(--light-color-base-01);
+
+  border-radius: var(--border-radius-small);
+  border: var(--border-widths-none);
+  background-color: var(--dark-color-base-02);
+  padding: var(--spacing-stretch-middle);
+  box-shadow: var(--shadow-3);
+}
+
+.button-primary-large:active {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+
+  color: var(--light-color-base-01);
+
+  border-radius: var(--border-radius-small);
+  border: var(--border-widths-medium);
+  background-color: var(--primary-color-base-02);
+  border: var(--primary-color-base-01);
+  padding: var(--spacing-stretch-middle);
+
+  box-shadow: var(--shadow-3);
+}
+
+.button-primary-large:disabled {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+  color: var(--dark-color-base-02);
+
+  cursor: not-allowed;
+  padding: var(--spacing-stretch-middle);
+  background-color: var(--light-color-base-04);
+}
+
+
+/* BOTAO SECUNDARIO */
+.button-secundary-large {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+
+  color: var(--primary-color-base-02);
+
+  border-radius: var(--border-radius-small);
+  border: var(--border-widths-small);
+  border-color: var(--primary-color-base-02);
+  background-color: var(--light-color-base-01);
+  padding: var(--spacing-stretch-middle);
+}
+
+.button-secundary-large:hover {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+
+  color: var(--primary-color-base-02);
+
+  border-radius: var(--border-radius-small);
+  border: var(--border-widths-small);
+  border-color: var(--primary-color-base-02);
+  background-color: var(--light-color-base-01);
+  padding: var(--spacing-stretch-middle);
+  box-shadow: var(--shadow-3);
+}
+
+
+.button-secundary-large:active {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+
+  color: var( --dark-color-base-03);
+
+  border-radius: var(--border-radius-small);
+  border: var(--border-widths-small);
+  border-color: var(--primary-color-base-02);
+  background-color: var(--light-color-base-02);
+  padding: var(--spacing-stretch-middle);
+  box-shadow: var(--shadow-3);
+}
+
+
+.button-secundary-large:focus {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+
+  color: var( --dark-color-base-03);
+
+  border-radius: var(--border-radius-small);
+  border: var(--border-widths-medium);
+  /* border-color: var(--primary-color-base-01); */
+  background-color: var(--light-color-base-01);
+  padding: var(--spacing-stretch-middle);
+  box-shadow: var(--shadow-3);
+}
+
+
+/* BOTAO GHOST LARGO */
+.button-ghost-large {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+  color: var(--primary-color-base-02);
+  background-color: transparent;
+
+  border-radius: var(--border-radius-none);
+  padding: var(--spacing-stretch-middle);
+  border: var(--border-widths-none);
+}
+
+.button-ghost-large:hover, .button-ghost-large:focus, .button-ghost-large:active {
+  font-family: var(--font-family-principal);
+  font-size: var(--font-size-standard);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-xxs);
+  line-height: var(--line-height-fair);
+  color: var(--primary-color-base-01);
+  background-color: transparent;
+
+  border-radius: var(--border-radius-small);
+  padding: var(--spacing-stretch-middle);
+  border: var(--border-widths-none);
+}

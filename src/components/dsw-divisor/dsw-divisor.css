@@ -1,0 +1,10 @@
+:host {
+  display: block;
+}
+
+.divisor {
+  border-radius: var(--border-radius-none);
+  border: var(--border-widths-small);
+  border-color: var(--dark-color-base-02);
+  min-width: 80px;
+}

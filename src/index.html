@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>DSW Sem Parar</title>
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+  <script type="module" src="/build/design-system-web.esm.js"></script>
+  <script nomodule src="/build/design-system-web.js"></script>
+  <link rel="stylesheet" type="text/css" href="/build/design-system-web.css" />
+</head>
+
+<body>
+  <div class="showcase-body">
+    <div class="showcase-sidebar example-button">
+      <div class="showcase-logo">
+        <img src="assets/img/Logo.svg" alt="Logo Sem Parar" width="80" />
+        <div class="badge">DSW VERSÃO 1.0</div>
+      </div>
+      <ul class="ul-sidebar-menu">
+        <li>
+          <a href="#logo" class="text-item-sidebar">Logo</a>
+          <a href="#logo" class="text-icon-sidebar"><img src="assets/img/sidebar/logo-con.png" width="22" title="Logo(s)" alt="Logo(s)" /></a>
+        </li>
+        <li>
+          <a href="#links" class="text-item-sidebar">Links</a>
+          <a href="#links" class="text-icon-sidebar"><img src="assets/img/sidebar/link.png" width="22" title="Link(s)" alt="Link(s)" /></a>
+        </li>
+        <li>
+          <a href="#heading" class="text-item-sidebar">Heading(s)</a>
+          <a href="#heading" class="text-icon-sidebar"><img src="assets/img/sidebar/heading.png" width="22" title="Heading(s)" alt="Heading(s)" /></a>
+        </li>
+        <li>
+          <a href="#subtitle" class="text-item-sidebar">Subtitle(s)</a>
+          <a href="#subtitle" class="text-icon-sidebar"><img src="assets/img/sidebar/subtitle.png" width="22" title="Subtitle(s)" alt="Subtitle(s)" /></a>
+        </li>
+        <li>
+          <a href="#paragraph" class="text-item-sidebar">Parágrafo(s)</a>
+          <a href="#paragraph" class="text-icon-sidebar"><img src="assets/img/sidebar/paragraph.png" width="22" title="Parágrafo(s)" alt="Parágrafo(s)" /></a>
+        </li>
+        <li>
+          <a href="#buttons" class="text-item-sidebar">Button(s)</a>
+          <a href="#buttons" class="text-icon-sidebar"><img src="assets/img/sidebar/button.png" width="22" title="Button(s)" alt="Button(s)" /></a>
+        </li>
+        <li>
+          <a href="#social-login" class="text-item-sidebar">Social Login</a>
+          <a href="#social-login" class="text-icon-sidebar"><img src="assets/img/sidebar/facebook-icon.png" width="22" title="Login Social" alt="Login Social" /></a>
+        </li>
+        <li>
+          <a href="#store-button" class="text-item-sidebar">Store Button</a>
+          <a href="#store-button" class="text-icon-sidebar"><img src="assets/img/sidebar/store.png" width="22" title="Botão da Loja" alt="Botão da Loja" /></a>
+        </li>
+        <li>
+          <a href="#divider" class="text-item-sidebar">Divisória</a>
+          <a href="#divider" class="text-icon-sidebar"><img src="assets/img/sidebar/divider.png" width="22" title="Divisória" alt="Divisória" /></a>
+        </li>
+        <li>
+          <a href="#inputs" class="text-item-sidebar">input(s)</a>
+          <a href="#inputs" class="text-icon-sidebar"><img src="assets/img/sidebar/input.png" width="22" title="Input(s)" alt="Input(s)" /></a>
+        </li>
+        <li>
+          <a href="#icons" class="text-item-sidebar">icons(s)</a>
+          <a href="#icons" class="text-icon-sidebar"><img src="assets/img/sidebar/icones.png" width="22" title="Icon(s)" alt="Icon(s)" /></a>
+        </li>
+        <li>
+          <a href="#pill" class="text-item-sidebar">Pill Small</a>
+          <a href="#pill" class="text-icon-sidebar"><img src="assets/img/sidebar/pill.png" width="22" title="Pill Small" alt="Pill Small" /></a>
+        </li>
+        <li>
+          <a href="#footer" class="text-item-sidebar">Footer</a>
+          <a href="#footer" class="text-icon-sidebar"><img src="assets/img/sidebar/footer.png" width="22" title="Rodapé/ Footer" alt="Pill Small" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="showcase-container">
+      <div class="showcase-title">
+        <h1>SHOWCASE LIB SEM PARAR WEB VERSION <small class="badge">V1.0</small></h1>
+        <p>
+          <dsw-subtitle appearance="subtitle-xxl" text='Os componentes usam uma sintaxe no nome que começa sempre com "dsw" que significa "Sem Parar Web Library"'></dsw-subtitle>
+        </p>
+      </div>
+      <div class="showcase-space-between">
+        <div id="logo">
+          <h3>Logo</h3>
+          <p class="heading-display5">Showcase da Logo</p>
+          <fieldset style="padding: 16px;">
+            <p>
+              <dsw-logo url="assets/img/logo-svg.svg" width="120"></dsw-logo>
+            <div class="showcase-container-code">
+              <pre><span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-logo</span> width=<span style="color:#2a00ff; ">"120"</span> url=<span style="color:#2a00ff; ">"assets/img/logo-svg.svg"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-logo</span><span style="color:#7f0055; ">&gt;</span></pre>
+            </div>
+            </p>
+
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p>
+            <b>width: </b> Como usado nas imagens o Atributo <b>width</b> é usado para indicar o tamanho da imagem.
+            No exemplo acima foi colocado o valor de 120 que indica que a imagem vai ter 120px.
+          </p>
+          <p><b>url: </b> É o path, o caminho da imagem</p>
+          <p>
+            Obs: O tamanho mínimo da imagem da logo está setada para 24px.
+          </p>
+        </div>
+
+        <hr>
+
+        <div id="links" style="padding: 20px 0;">
+          <h3>Links</h3>
+          <p>Showcase dos Links</p>
+          <fieldset>
+            <ul>
+              <li>
+                <dsw-link url="#" target="_blank" appearance="link-xxxl" text="Link XXXL"></dsw-link>
+                <div class="showcase-container-code">
+                  <pre><span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-link</span> url=<span style="color:#2a00ff; ">"#"</span> target=<span style="color:#2a00ff; ">"_blank"</span> appearance=<span style="color:#2a00ff; ">"link-xxxl"</span> text=<span style="color:#2a00ff; ">"Link XXXL"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-link</span><span style="color:#7f0055; ">&gt;</span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-link url="#" target="_blank" appearance="link-xxl" text="Link XXL"></dsw-link>
+                <div class="showcase-container-code">
+                  <pre><span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-link</span> url=<span style="color:#2a00ff; ">"#"</span> target=<span style="color:#2a00ff; ">"_blank"</span> appearance=<span style="color:#2a00ff; ">"link-xxl"</span> text=<span style="color:#2a00ff; ">"Link XXL"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-link</span><span style="color:#7f0055; ">&gt;</span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-link url="#" target="_blank" appearance="link-xl" text="Link XL"></dsw-link>
+                <div class="showcase-container-code">
+                  <pre><span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-link</span> url=<span style="color:#2a00ff; ">"#"</span> target=<span style="color:#2a00ff; ">"_blank"</span> appearance=<span style="color:#2a00ff; ">"link-xl"</span> text=<span style="color:#2a00ff; ">"Link XL"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-link</span><span style="color:#7f0055; ">&gt;</span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-link url="#" target="_blank" appearance="link-lg" text="Link LG"></dsw-link>
+                <div class="showcase-container-code">
+                  <pre><span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-link</span> url=<span style="color:#2a00ff; ">"#"</span> target=<span style="color:#2a00ff; ">"_blank"</span> appearance=<span style="color:#2a00ff; ">"link-lg"</span> text=<span style="color:#2a00ff; ">"Link LG"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-link</span><span style="color:#7f0055; ">&gt;</span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-link url="#" target="_blank" appearance="link-md" text="Link MD"></dsw-link>
+                <div class="showcase-container-code">
+                  <pre><span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-link</span> url=<span style="color:#2a00ff; ">"#"</span> target=<span style="color:#2a00ff; ">"_blank"</span> appearance=<span style="color:#2a00ff; ">"link-md"</span> text=<span style="color:#2a00ff; ">"Link MD"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-link</span><span style="color:#7f0055; ">&gt;</span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-link url="#" target="_blank" appearance="link-sm" text="link-sm"></dsw-link>
+                <div class="showcase-container-code">
+                  <pre><span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-link</span> url=<span style="color:#2a00ff; ">"#"</span> target=<span style="color:#2a00ff; ">"_blank"</span> appearance=<span style="color:#2a00ff; ">"link-sm"</span> text=<span style="color:#2a00ff; ">"Link SM"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-link</span><span style="color:#7f0055; ">&gt;</span></pre>
+                </div>
+              </li>
+            </ul>
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p><b>url: </b>Propriedade usada para <b>href</b> do html.</p>
+          <p><b>target: </b>Propriedade usada para <b>target</b> do html.</p>
+          <p><b>appearance: </b>Propriedade usada para <b>class</b> do html.</p>
+          <p><b>text: </b>texto do link</p>
+          <p><b>OBS:</b> Nenhum dos itens é obrigatório caso seja necessário você não precisa declarar nenhum dos itens.</p>
+        </div>
+
+        <hr>
+
+        <div id="heading" style="padding: 20px 0;">
+          <h3>Heading</h3>
+          <p>Showcase dos Heading(s)</p>
+          <fieldset>
+            <ul>
+              <li>
+                <dsw-heading appearance="heading-display5" text="Heading Display 5"></dsw-heading>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-heading</span> appearance=<span style='color:#2a00ff; '>"heading-display5"</span> text=<span style='color:#2a00ff; '>"Heading Display 5"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-heading</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-heading appearance="heading-display4" text="Heading Display 4"></dsw-heading>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-heading</span> appearance=<span style='color:#2a00ff; '>"heading-display4"</span> text=<span style='color:#2a00ff; '>"Heading Display 4"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-heading</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-heading appearance="heading-display3" text="Heading Display 3"></dsw-heading>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-heading</span> appearance=<span style='color:#2a00ff; '>"heading-display3"</span> text=<span style='color:#2a00ff; '>"Heading Display 3"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-heading</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-heading appearance="heading-xxxxxl" text="Heading XXXXXL"></dsw-heading>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-heading</span> appearance=<span style='color:#2a00ff; '>"heading-xxxxl"</span> text=<span style='color:#2a00ff; '>"Heading XXXXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-heading</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-heading appearance="heading-xxxxl" text="Heading XXXXL"></dsw-heading>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-heading</span> appearance=<span style='color:#2a00ff; '>"heading-xxxxl"</span> text=<span style='color:#2a00ff; '>"Heading XXXXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-heading</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-heading appearance="heading-xxxl" text="Heading XXXL"></dsw-heading>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-heading</span> appearance=<span style='color:#2a00ff; '>"heading-xxxl"</span> text=<span style='color:#2a00ff; '>"Heading XXXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-heading</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-heading appearance="heading-xxl" text="Heading XXL"></dsw-heading>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-heading</span> appearance=<span style='color:#2a00ff; '>"heading-xxl"</span> text=<span style='color:#2a00ff; '>"Heading XXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-heading</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+            </ul>
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p><b>class: </b> As classes de estilo usam a tag <b>"appearance"</b>.
+          <p><b>text:</b> Texto do Heading, usado a tag <b>"text"</b>.</p>
+        </div>
+
+        <hr>
+
+        <div id="subtitle" style="padding: 20px 0;">
+          <h3>Subtitle</h3>
+          <p>Showcase dos Subtitle(s)</p>
+          <fieldset>
+            <ul>
+              <li>
+                <dsw-subtitle appearance="subtitle-huge" text="Subtitle Huge"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-huge"</span> text=<span style='color:#2a00ff; '>"Subtitle Huge"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-subtitle appearance="subtitle-xxxxl" text="Subtitle XXXXL"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-xxxxl"</span> text=<span style='color:#2a00ff; '>"Subtitle XXXXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-subtitle appearance="subtitle-xxxl" text="Subtitle XXXL"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-xxxl"</span> text=<span style='color:#2a00ff; '>"Subtitle XXXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-subtitle appearance="subtitle-xxl" text="Subtitle XXL"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-xxl"</span> text=<span style='color:#2a00ff; '>"Subtitle XXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-subtitle appearance="subtitle-xl" text="Subtitle XL"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-xl"</span> text=<span style='color:#2a00ff; '>"Subtitle XL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-subtitle appearance="subtitle-lr" text="Subtitle LR"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-lr"</span> text=<span style='color:#2a00ff; '>"Subtitle LR"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-subtitle appearance="subtitle-lg" text="Subtitle LG"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-lg"</span> text=<span style='color:#2a00ff; '>"Subtitle LG"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-subtitle appearance="subtitle-mm" text="Subtitle MM"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-mm"</span> text=<span style='color:#2a00ff; '>"Subtitle MM"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-subtitle appearance="subtitle-md" text="Subtitle MD"></dsw-subtitle>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-subtitle</span> appearance=<span style='color:#2a00ff; '>"subtitle-md"</span> text=<span style='color:#2a00ff; '>"Subtitle MD"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-subtitle</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+
+            </ul>
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p><b>class: </b> As classes de estilo usam a tag <b>"appearance"</b>.
+          <p><b>text:</b> Texto do Heading, usado a tag <b>"text"</b>.</p>
+        </div>
+
+        <hr>
+
+        <div id="paragraph" style="padding: 20px 0;">
+          <h3>Paragraph</h3>
+          <p>Showcase dos Paragraph(s)</p>
+          <fieldset>
+            <ul>
+              <li>
+                <dsw-paragraph appearance="paragraph-huge" text="Paragraph Huge"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-huge"</span> text=<span style='color:#2a00ff; '>"Paragraph Huge"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-xxxxl" text="Paragraph XXXXL"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-xxxxl"</span> text=<span style='color:#2a00ff; '>"Paragraph XXXXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-xxxl" text="Paragraph XXXL"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-xxxl"</span> text=<span style='color:#2a00ff; '>"Paragraph XXXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-xxl" text="Paragraph XXL"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-xxl"</span> text=<span style='color:#2a00ff; '>"Paragraph XXL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-xl" text="Paragraph XL"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-xl"</span> text=<span style='color:#2a00ff; '>"Paragraph XL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-lr" text="Paragraph LR"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-lr"</span> text=<span style='color:#2a00ff; '>"Paragraph LR"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-lg" text="Paragraph LG"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-lg"</span> text=<span style='color:#2a00ff; '>"Paragraph LG"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-mm" text="Paragraph MM"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-mm"</span> text=<span style='color:#2a00ff; '>"Paragraph MM"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-md" text="Paragraph MD"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-md"</span> text=<span style='color:#2a00ff; '>"Paragraph MD"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-sl" text="Paragraph SL"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-sl"</span> text=<span style='color:#2a00ff; '>"Paragraph SL"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-sr" text="Paragraph SR"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-sr"</span> text=<span style='color:#2a00ff; '>"Paragraph SR"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-xs" text="Paragraph XS"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-xs"</span> text=<span style='color:#2a00ff; '>"Paragraph XS"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-xxs" text="Paragraph XXS"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-xxs"</span> text=<span style='color:#2a00ff; '>"Paragraph XXS"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+              <li>
+                <dsw-paragraph appearance="paragraph-xxs" text="Paragraph XXXS"></dsw-paragraph>
+                <div class="showcase-container-code">
+                  <pre><span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-paragraph</span> appearance=<span style='color:#2a00ff; '>"paragraph-xxxs"</span> text=<span style='color:#2a00ff; '>"Paragraph XXXS"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-paragraph</span><span style='color:#7f0055; '>></span></pre>
+                </div>
+              </li>
+            </ul>
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p><b>class: </b> As classes de estilo usam a tag <b>"appearance"</b>.
+          <p><b>text:</b> Texto do Heading, usado a tag <b>"text"</b>.</p>
+        </div>
+
+        <hr>
+
+        <div id="buttons" style="padding: 20px 0;">
+          <h3>Buttons</h3>
+          <p>Showcase dos botões</p>
+          <fieldset>
+            <dsw-button text="Botão Primário" appearance="button-primary-large" type="button"></dsw-button>
+            <div class="showcase-container-code">
+              <pre>
+                  <span style="color: #000080; font-weight: bold">&lt;dsw</span><span style="color: #FF0000">-button</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Botão Primário&quot;</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;button-primary-large&quot;</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;button&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-button&gt;</span>
+                </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-button text="Botão Secundário" appearance="button-secundary-large" type="button"></dsw-button>
+            <div class="showcase-container-code">
+              <pre>
+                  <span style="color: #000080; font-weight: bold">&lt;dsw</span><span style="color: #FF0000">-button</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Botão Secundário&quot;</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;button-secondary-large&quot;</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;button&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-button&gt;</span>
+                </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-button text="Botão Ghost" appearance="button-ghost-large" type="button"></dsw-button>
+            <div class="showcase-container-code">
+              <pre>
+                  <span style="color: #000080; font-weight: bold">&lt;dsw</span><span style="color: #FF0000">-button</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Botão Ghost&quot;</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;button-ghost-large&quot;</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;button&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-button&gt;</span>
+                </pre>
+            </div>
+            </p>
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p><b>class: </b> As classes de estilo usam a tag <b>"appearance"</b> com os 3 classes <b>button-primary-large</b>, <b>button-secundary-large</b> e <b>button-ghost-large</b>.
+          <p><b>type:</b> O tipo do botão utiliza a tag <b>"type"</b> onde você poderá declarar os tipos HTML de (button, submit, etc).</p>
+          <p><b>text:</b> Texto do botão, usado a tag <b>"text"</b>.</p>
+          <p>
+            <span class="badge">
+              <b>OBS: </b> Botões, possuem em sua classe a injeção do componente "dsw-links"</d>
+            </span>
+
+          </p>
+        </div>
+
+        <hr>
+
+
+        <div id="social-login" style="padding: 20px 0;">
+          <h3>Logins Sociais</h3>
+          <p>Showcase dos Logins Sociais</p>
+          <fieldset>
+            <p>
+              <dsw-social-login appearance="social-login-facebook" type="button"></dsw-social-login>
+
+            <div class="showcase-container-code">
+              <pre>
+                    <!-- <span style="color: #000080; font-weight: bold">&lt;dsw-social-login</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Facebook&quot;</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;social-login-facebook&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-social-login&gt;</span> -->
+                    <span style="color: #000080; font-weight: bold">&lt;dsw-social-login</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;social-login-facebook&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-social-login&gt;</span>
+                  </pre>
+            </div>
+            </p>
+
+            <p>
+              <dsw-social-login appearance="social-login-google" type="button"></dsw-social-login>
+
+            <div class="showcase-container-code">
+              <pre>
+                    <!-- <span style="color: #000080; font-weight: bold">&lt;dsw-social-login</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Google&quot;</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;social-login-google&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-social-login&gt;</span> -->
+                    <span style="color: #000080; font-weight: bold">&lt;dsw-social-login</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;social-login-google&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-social-login&gt;</span>
+                  </pre>
+            </div>
+            </p>
+
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p><b>appearance: </b> É o responsável por identificar a <b>"classe"</b> do login social. No caso você poderá escolher um dos dois. <b>social-login-facebook</b> ou <b>social-login-google</b>.</p>
+          <p>
+            <b>OBS: </b>
+            Ao escolher a classe (via appearance) facebook ou google o texto do botão assim como o ícone do mesmo será colocado automaticamente. Você poderá implementar o próprio método de link usando Angular ou React ou outro Framework ou Biblioteca.
+          </p>
+        </div>
+
+        <hr>
+
+        <div id="store-button" style="padding: 20px 0;">
+          <h3>Store Button(s)</h3>
+          <p>Showcase dos Botões das Lojas</p>
+          <fieldset>
+            <p>
+              <dsw-store-button appearance="store-button-apple store-button-dark" text="Baixar na"></dsw-store-button>
+
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color: #000080; font-weight: bold">&lt;dsw-store-button</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;store-button-apple store-button-dark&quot;</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Baixar na&quot;</span> <span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-store-button&gt;</span>
+                </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-store-button appearance="store-button-apple store-button-light" text="Baixar na"></dsw-store-button>
+
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color: #000080; font-weight: bold">&lt;dsw-store-button</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;store-button-apple store-button-light&quot;</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Baixar na&quot;</span> <span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-store-button&gt;</span>
+                </pre>
+            </div>
+            </p>
+
+            <p>
+              <dsw-store-button appearance="store-button-android store-button-dark" text="Baixar no"></dsw-store-button>
+
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color: #000080; font-weight: bold">&lt;dsw-store-button</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;store-button-android store-button-dark&quot;</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Baixar no&quot;</span> <span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-store-button&gt;</span>
+                </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-store-button appearance="store-button-android store-button-light" text="Baixar no"></dsw-store-button>
+
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color: #000080; font-weight: bold">&lt;dsw-store-button</span> <span style="color: #FF0000">appearance=</span><span style="color: #0000FF">&quot;store-button-android store-button-light&quot;</span> <span style="color: #FF0000">text=</span><span style="color: #0000FF">&quot;Baixar no&quot;</span> <span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-store-button&gt;</span>
+                </pre>
+            </div>
+            </p>
+
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p>
+            <b>appearance: </b> É o responsável por identificar a <b>"classe"</b> do botão das lojas.
+          <p>No caso você poderá escolher um dos dois. <b>store-button-apple</b> ou <b>store-button-android</b>.</p>
+          <ul>
+            <li>
+              <p><b>store-button-apple: </b> Para botão da Loja da Apple.</p>
+            </li>
+            <li>
+              <p><b>store-button-android: </b> Para botão da Loja da Android.</p>
+            </li>
+            <li>
+              <p><b>store-button-dark: </b> Para cor tema escuro.</p>
+            </li>
+            <li>
+              <p><b>store-button-light: </b> Para cor tema claro.</p>
+            </li>
+          </ul>
+
+          </p>
+          <p>
+            <b>text: </b> Sendo usado para indicar o texto desejado para slogan do botão.
+          <p>
+        </div>
+
+        <hr>
+
+        <div id="divider" style="padding: 20px 0;">
+          <h3>Divisor</h3>
+          <p>Showcase Divisor</p>
+          <fieldset>
+            <p>
+              <dsw-divisor></dsw-divisor>
+
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color: #000080; font-weight: bold">&lt;dsw-divisor</span> appearance=<span style='color:#2a00ff; '>"divisor"</span> <span style="color: #000080; font-weight: bold">&gt;</span><span style="color: #a61717; background-color: #e3d2d2">&lt;</span><span style="color: #000080; font-weight: bold">/dsw-divisor&gt;</span>
+                </pre>
+            </div>
+            </p>
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <p>
+            <b>appearance: </b> Você poderá subscrever as propriedades desta divisória (cores, etc). Para subscrever as propriedades, basta criar uma classe para subscrever as regras css. Caso contrário segue as regras padrões abaixo:
+          <p>
+          <p>
+            <pre>
+              .divisor {<br />
+                  border-radius: var(--border-radius-none);<br />
+                  border: var(--border-widths-small);<br />
+                  border-color: var(--dark-color-base-02);<br />
+                  min-width: 80px;<br />
+              }
+            </pre>
+          </p>
+        </div>
+
+        <hr>
+
+        <div id="inputs" style="padding: 20px 0;">
+          <h3>Input(s)</h3>
+          <p>Showcase dos Input(s)</p>
+          <fieldset>
+            <p>
+              <dsw-input inputId="input_id" required="true" type="text" label="Label do Input"></dsw-input>
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-input</span> inputId=<span style="color:#2a00ff; ">"input_id"</span> required=<span style="color:#2a00ff; ">"true"</span> type=<span style="color:#2a00ff; ">"text"</span> label=<span style="color:#2a00ff; ">"Label do Input"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-input</span><span style="color:#7f0055; ">&gt;</span>
+                  </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-input inputId="input_id" required="true" type="text" label="Label do Input" icon="assets/img/icon.svg"></dsw-input>
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-input</span> inputId=<span style="color:#2a00ff; ">"input_id"</span> required=<span style="color:#2a00ff; ">"true"</span> type=<span style="color:#2a00ff; ">"text"</span> label=<span style="color:#2a00ff; ">"Label do Input"</span> icon=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-input</span><span style="color:#7f0055; ">&gt;</span>
+                  </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-input inputId="input_id" required="true" type="text" label="Label do Input" icon="assets/img/icon.svg" text-error="Texto de exemplo de erro"></dsw-input>
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-input</span> inputId=<span style="color:#2a00ff; ">"input_id"</span> required=<span style="color:#2a00ff; ">"true"</span> type=<span style="color:#2a00ff; ">"text"</span> label=<span style="color:#2a00ff; ">"Label do Input"</span> icon=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span> text-error=<span style="color:#2a00ff; ">"Texto de exemplo de erro"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-input</span><span style="color:#7f0055; ">&gt;</span>
+                  </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-input inputId="input_id" required="true" type="text" label="Label do Input" disabled="true"></dsw-input>
+            <div class="showcase-container-code">
+              <pre>
+                    <span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-input</span> inputId=<span style="color:#2a00ff; ">"input_id"</span> required=<span style="color:#2a00ff; ">"true"</span> type=<span style="color:#2a00ff; ">"text"</span> label=<span style="color:#2a00ff; ">"Label do Input"</span> icon=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span> text-error=<span style="color:#2a00ff; ">"Texto de exemplo de erro"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-input</span><span style="color:#7f0055; ">&gt;</span>
+                  </pre>
+            </div>
+            </p>
+            <!-- <p>
+                <dsw-input inputId="input_id" required="true" type="text" label="Label do Input" disabled="true" icon="assets/img/icon.svg"></dsw-input>
+                <div class="showcase-container-code">
+                  <pre>
+                    <span style="color:#7f0055; ">&lt;</span><span style="color:#7f0055; ">dsw-input</span> inputId=<span style="color:#2a00ff; ">"input_id"</span> required=<span style="color:#2a00ff; ">"true"</span> type=<span style="color:#2a00ff; ">"text"</span> label=<span style="color:#2a00ff; ">"Label do Input"</span> icon=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span> text-error=<span style="color:#2a00ff; ">"Texto de exemplo de erro"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-input</span><span style="color:#7f0055; ">&gt;</span>
+                  </pre>
+                </div>
+              </p> -->
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <h4>O componente Input possui as seguintes propriedades:</h4>
+          <ul>
+            <li><b>label: </b>Atributo usado para inserír o texto da label do Input.</li>
+            <li><b>inputId: </b>Atributo responsável pelo ID do Input e também da label deste Input.</li>
+            <li><b>type: </b>Atributo auto-definido e usado para definir o tipo de Input (submit, button, reset, etc). Veja mais em : <a href="https://www.w3schools.com/tags/tag_input.asp">https://www.w3schools.com/tags/tag_input.asp</a></li>
+            <li><b>icon: </b>Atributo usado para indicar o path/ caminho da imagem desejada para ser usada como icone do input.</li>
+            <li><b>required: </b>Atributo auto-definido e usado para indicar se o input é ou não obrigatório/ requerido.</li>
+            <li><b>textError: </b>Atributo usado para mostrar o texto de Erro desejado.</li>
+          </ul>
+          <p>
+            <b>OBS: </b>
+            Os Atributos <b>"icon"</b> e também <b>"textError"</b> são opcionais e ao serem declados alteram visualmente o componente. Adicionando o ícone como no exemplo acima e no caso do textError adiciona as cores e mensagem
+            de erro abaixo do Input.
+          </p>
+        </div>
+
+        <hr>
+
+        <div id="icons" style="padding: 20px 0;">
+          <h3>Icons(s)</h3>
+          <p>Showcase dos Icon(s)</p>
+          <fieldset>
+            <p>
+              <dsw-icon icon="ic_sp_xl" url="assets/img/icon.svg"></dsw-icon>
+            <div class="showcase-container-code">
+              <pre>
+                      <span style="color:#7f0055;">&lt;</span><span style="color:#7f0055; ">dsw-icon</span> icon=<span style="color:#2a00ff; ">"ic_sp_xl"</span> url=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-icon</span><span style="color:#7f0055; ">&gt;</span>
+                    </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-icon icon="ic_sp_lg" url="assets/img/icon.svg"></dsw-icon>
+            <div class="showcase-container-code">
+              <pre>
+                      <span style="color:#7f0055;">&lt;</span><span style="color:#7f0055; ">dsw-icon</span> icon=<span style="color:#2a00ff; ">"ic_sp_lg"</span> url=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-icon</span><span style="color:#7f0055; ">&gt;</span>
+                    </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-icon icon="ic_sp_md" url="assets/img/icon.svg"></dsw-icon>
+            <div class="showcase-container-code">
+              <pre>
+                      <span style="color:#7f0055;">&lt;</span><span style="color:#7f0055; ">dsw-icon</span> icon=<span style="color:#2a00ff; ">"ic_sp_md"</span> url=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-icon</span><span style="color:#7f0055; ">&gt;</span>
+                    </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-icon icon="ic_sp_sm" url="assets/img/icon.svg"></dsw-icon>
+            <div class="showcase-container-code">
+              <pre>
+                      <span style="color:#7f0055;">&lt;</span><span style="color:#7f0055; ">dsw-icon</span> icon=<span style="color:#2a00ff; ">"ic_sp_sm"</span> url=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-icon</span><span style="color:#7f0055; ">&gt;</span>
+                    </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-icon icon="ic_sp_xs" url="assets/img/icon.svg"></dsw-icon>
+            <div class="showcase-container-code">
+              <pre>
+                      <span style="color:#7f0055;">&lt;</span><span style="color:#7f0055; ">dsw-icon</span> icon=<span style="color:#2a00ff; ">"ic_sp_xs"</span> url=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-icon</span><span style="color:#7f0055; ">&gt;</span>
+                    </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-icon icon="ic_sp_xxs" url="assets/img/icon.svg"></dsw-icon>
+            <div class="showcase-container-code">
+              <pre>
+                      <span style="color:#7f0055;">&lt;</span><span style="color:#7f0055; ">dsw-icon</span> icon=<span style="color:#2a00ff; ">"ic_sp_xxs"</span> url=<span style="color:#2a00ff; ">"assets/img/icon.svg"</span><span style="color:#7f0055; ">&gt;</span><span style="color:#7f0055; ">&lt;/</span><span style="color:#7f0055; ">dsw-icon</span><span style="color:#7f0055; ">&gt;</span>
+                    </pre>
+            </div>
+            </p>
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <h4>Icones possuem as seguintes propriedades:</h4>
+          <ul>
+            <li><b>icon: </b> Atributo responsável pela classe desejada.</li>
+            <li><b>url: </b> Atributo responsável pela url/ path do icone.</li>
+          </ul>
+          <p>
+          <h4>As classes usadas nos botões e seus respectivos tamanhos são:</h4>
+          </p>
+          <ul>
+            <li><b>ic_sp_xl (XL): </b>Tamanho de 120px x 120px</li>
+            <li><b>ic_sp_lg (LG): </b>Tamanho de 64px x 64px</li>
+            <li><b>ic_sp_md (MD): </b>Tamanho de 40px x 40px</li>
+            <li><b>ic_sp_sm (SM): </b>Tamanho de 32px x 32px</li>
+            <li><b>ic_sp_xs (XS): </b>Tamanho de 24px x 24px</li>
+            <li><b>ic_sp_xxs (XXS): </b>Tamanho de 16px x 16px</li>
+          </ul>
+        </div>
+
+        <hr>
+
+        <div id="pill" style="padding: 20px 0;">
+          <h3>Pill Small</h3>
+          <p>Showcase do Pill Small</p>
+          <fieldset>
+            <p>
+              <dsw-pill-small text="Pill-Small"></dsw-pill-small>
+            <div class="showcase-container-code">
+              <pre>
+                  <span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-pill-small</span> text=<span style='color:#2a00ff; '>"Pill-Small"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-pill-small</span><span style='color:#7f0055; '>></span>
+                </pre>
+            </div>
+            </p>
+            <p>
+              <dsw-pill-small text="Pill-Small" disabled="true"></dsw-pill-small>
+            <div class="showcase-container-code">
+              <pre>
+                  <span style='color:#7f0055; '>&lt;</span><span style='color:#7f0055; '>dsw-pill-small</span> text=<span style='color:#2a00ff; '>"Pill-Small"</span> disabled=<span style='color:#2a00ff; '>"true"</span><span style='color:#7f0055; '>></span><span style='color:#7f0055; '>&lt;/</span><span style='color:#7f0055; '>dsw-pill-small</span><span style='color:#7f0055; '>></span>
+                </pre>
+            </div>
+            </p>
+          </fieldset>
+          <h2 style="text-decoration: underline;">Propriedades</h2>
+          <h4>Icones possuem as seguintes propriedades:</h4>
+          <ul>
+            <li><b>text: </b> Atributo responsável pelo texto do botão desejado.</li>
+            <li><b>disabled: </b> Atributo responsável pelo estado nativo desabilitado do botão. Isso mudará a aparência dele.</li>
+          </ul>
+        </div>
+
+        <hr>
+
+        <div id="footer" style="padding: 20px 0;">
+          <h3>Footer</h3>
+          <p>Showcase do Footer</p>
+          <fieldset>
+            <p>
+              <dsw-footer></dsw-footer>
+            <div class="showcase-container-code">
+              <pre>
+
+                </pre>
+            </div>
+            </p>
+          </fieldset>
+        </div>
+
+        <hr>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

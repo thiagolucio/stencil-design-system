@@ -1,0 +1,102 @@
+@use "sass:map";
+
+$primary-color-base-01: #D60B52; 
+$primary-color-base-02: #505050;
+
+
+$secondary-colors: (
+  "color-base-01": #000000,
+  "color-base-02": #8C368C,
+  "color-base-03": #AC1E50,
+  "color-base-04": #A8D157,
+  "color-base-05": #FFB41B,
+  "color-base-06": #008484,
+);
+
+$light-colors: (
+    "color-base-01": #FFFFFF,
+    "color-base-02": #F9F9F9,
+    "color-base-03": #F2F2F2,
+    "color-base-04": #EEEEEE,
+    "color-base-05": #E7E9EE,
+);
+
+$dark-colors: (
+    "color-base-01": #C4C4C4,
+    "color-base-02": #A4A4A4,
+    "color-base-03": #6E6E6E,
+    "color-base-04": #4A4A4A,
+    "color-base-05": #363636,
+);
+
+
+$success-colors: (
+    "color-base-01": #D7EFE4,
+    "color-base-02": #85D2AC,
+    "color-base-03": #37805C,
+    "color-base-04": #07743E,
+    "color-base-05": #006231,
+);
+
+$error-colors: (
+    "color-base-01": #FFCCCC,
+    "color-base-02": #FF7373,
+    "color-base-03": #FF0000,
+    "color-base-04": #DB0100,
+    "color-base-05": #BF0000,
+);
+
+$alert-colors: (
+    "color-base-01": #FDF2CC,
+    "color-base-02": #FDE07E,
+    "color-base-03": #F7BF00,
+    "color-base-04": #FFB934,
+    "color-base-05": #8E6E00,
+);
+
+$highlight-colors: (
+    "color-base-01": #E8F6F9,
+    "color-base-02": #B3E2EA,
+    "color-base-03": #008080,
+    "color-base-04": #007C9C,
+    "color-base-05": #00586E,
+);
+
+.exemplo_cores {
+    background: $alert-colors(color-base-01);
+}
+
+// Exemplo de uso do map sass
+.alert {
+  background-color: map.get($alert-colors, "color-base-03");
+}
+
+/* saída 
+.alert {
+    background-color: #F7BF00;
+  }
+
+*/
+
+
+
+// $dark-theme: true !default;
+// $primary-color: #f8bbd0 !default;
+// $accent-color: #6a1b9a !default;
+
+// @if $dark-theme {
+//   $primary-color: darken($primary-color, 60%);
+//   $accent-color: lighten($accent-color, 60%);
+// }
+
+// .button {
+//   background-color: $primary-color;
+//   border: 1px solid $accent-color;
+//   border-radius: 3px;
+// }
+
+// .button {
+//     background-color: #750c30;
+//     border: 1px solid #f5ebfc;
+//     border-radius: 3px;
+//   }
