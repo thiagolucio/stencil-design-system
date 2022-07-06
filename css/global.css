@@ -1,0 +1,441 @@
+@import "./dsw_headings.css";
+@import "./dsw_paragraph.css";
+@import "./dsw_subtitles.css";
+@import "./dsw_small_pills.css";
+@import "./dsw_buttons.css";
+@import "./dsw_social_logins.css";
+@import "./dsw_store_button.css";
+@import "./dsw_icons.css";
+@import "./dsw_divider.css";
+@import "./dsw_inputs.css";
+@import "./dsw_links.css";
+@import "./dsw_logo.css";
+
+
+/* Regras gerais */
+@font-face {
+  font-family: "Ubuntu Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Regular"),
+    url("../assets/fonts/Ubuntu-R.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Italic"),
+    url("../assets/fonts/Ubuntu-RI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Light"),
+    url("../assets/fonts/Ubuntu-L.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Light Italic"),
+    url("../assets/fonts/Ubuntu-LI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Medium"),
+    url("../assets/fonts/Ubuntu-M.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Medium Italic"),
+    url("../assets/fonts/Ubuntu-MI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Bold"), url("../assets/fonts/Ubuntu-B.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Bold Italic"),
+    url("../assets/fonts/Ubuntu-BI.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu Condensed Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Condensed Regular"),
+    url("../assets/fonts/Ubuntu-C.woff") format("woff");
+}
+
+:root {
+  /* Transitions */
+  --transition-links: all 0.3s ease-in-out;
+
+  /* Colors */
+  --primary-base-01: #d60b52;
+  --primary-base-02: #505050;
+
+  --secondary-base-01: #000000;
+  --secondary-base-02: #8c368c;
+  --secondary-base-03: #ac1e50;
+  --secondary-base-04: #a8d157;
+  --secondary-base-05: #ffb41b;
+  --secondary-base-06: #008484;
+
+  --light-base-01: #ffffff;
+  --light-base-02: #f9f9f9;
+  --light-base-03: #f2f2f2;
+  --light-base-04: #eeeeee;
+  --light-base-05: #e7e9ee;
+
+  --dark-base-01: #c4c4c4;
+  --dark-base-02: #a4a4a4;
+  --dark-base-03: #6e6e6e;
+  --dark-base-04: #4a4a4a;
+  --dark-base-05: #363636;
+
+  --success-base-01: #d7efe4;
+  --success-base-02: #85d2ac;
+  --success-base-03: #37805c;
+  --success-base-04: #07743e;
+  --success-base-05: #006231;
+
+  --error-base-01: #ffcccc;
+  --error-base-02: #ff7373;
+  --error-base-03: #ff0000;
+  --error-base-04: #db0100;
+  --error-base-05: #bf0000;
+
+  --alert-base-01: #fdf2cc;
+  --alert-base-02: #fde07e;
+  --alert-base-03: #f7bf00;
+  --alert-base-04: #ffb934;
+  --alert-base-05: #8e6e00;
+
+  --highlight-base-01: #e8f6f9;
+  --highlight-base-02: #b3e2ea;
+  --highlight-base-03: #008080;
+  --highlight-base-04: #007c9c;
+  --highlight-base-05: #00586e;
+
+  /* Border radius */
+  --border-radius-none: 0;
+  --border-radius-smaller: 2px;
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 16px;
+  --border-radius-pill: 25rem;
+  --border-radius-circle: 50rem;
+
+  /* Border widths */
+  --border-widths-none: 0;
+  --border-widths-small: 1px solid;
+  --border-widths-medium: 2px solid;
+  --border-widths-large: 4px solid;
+
+  /* opacity and Shadow */
+
+  --opacity-6: 0.6;
+  --shadow-1: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  --shadow-2: 2px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  --shadow-3: 0px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
+  /* Horizontal Space */
+  --spacing-flat-quarck: 4px;
+  --spacing-flat-nano: 8px;
+  --spacing-flat-xxxxs: 12px;
+  --spacing-flat-xxxs: 16px;
+  --spacing-flat-xxs: 20px;
+  --spacing-flat-xs: 24px;
+  --spacing-flat-smaller: 28px;
+  --spacing-flat-small: 32px;
+  --spacing-flat-middle: 40px;
+  --spacing-flat-medium: 48px;
+  --spacing-flat-large: 52px;
+  --spacing-flat-larger: 60px;
+  --spancing-flat-big: 72px;
+  --spacing-flat-bigger: 80px;
+  --spacing-flat-xl: 100px;
+  --spacing-flat-xxl: 160px;
+  --spacing-flat-xxxl: 180px;
+  --spacing-flat-huge: 220px;
+
+  /*  Vertical Space */
+  --spacing-standing-quarck: 4px;
+  --spacing-standing-xxxxs: 8px;
+  --spacing-standing-xxxs: 12px;
+  --spacing-standing-xxs: 16px;
+  --spacing-standing-xs: 20px;
+  --spacing-standing-smaller: 24px;
+  --spacing-standing-small: 32px;
+  --spacing-standing-middle: 40px;
+  --spacing-standing-half: 56px;
+  --spacing-standing-medium: 60px;
+  --spacing-standing-large: 80px;
+  --spacing-standing-larger: 100px;
+  --spancing-standing-big: 120px;
+  --spacing-standing-bigger: 160px;
+  --spacing-standing-xl: 200px;
+  --spacing-standing-xxl: 300px;
+  --spacing-standing-xxxl: 320px;
+
+  /* Inner Spacing */
+  --inner-spacing-small: 4px;
+  --inner-spacing-middle: 8px;
+  --inner-spacing-medium: 12px;
+  --inner-spacing-large: 16px;
+  --inner-spacing-larger: 24px;
+  --inner-space-xl: 32px;
+
+  /* Squish Space */
+  --spacing-squish-xxxxs: 4px 12px;
+  --spacing-squish-xxxs: 4px 16px;
+  --spacing-squish-xs: 8px 16px;
+  --spacing-squish-smaller: 12px 16px;
+  --spacing-squish-small: 16px 24px;
+  --spacing-squish-middle: 16px 28px;
+  --spacing-squish-medium: 24px 32px;
+  --spacing-squish-large: 16px 60px;
+
+  /* Spacing Strech */
+  --spacing-stretch-small: 12px 8px;
+  --spacing-stretch-middle: 16px 8px;
+  --spacing-stretch-half: 16px 12px;
+  --spacing-stretch-medium: 20px 16px;
+  --spacing-stretch-large: 24px 16px;
+  --spacing-stretch-larger: 32px 16px;
+  --spacing-stretch-xl: 32px 24px;
+
+  /* font */
+  --font-family-principal-light: "Ubuntu Light", sans-serif;
+  --font-family-principal-condensed: "Ubuntu Condensed Regular", sans-serif;
+  --font-family-principal: "Ubuntu Regular", sans-serif;
+  --font-family-principal-medium: "Ubuntu Medium", sans-serif;
+  --font-family-principal-bold: "Ubuntu Bold", sans-serif;
+
+  --font-test: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  --font-size-smaller: 10px;
+  --font-size-small: 12px;
+  --font-size-middle: 14px;
+  --font-size-standard: 16px;
+  --font-size-large: 18px;
+  --font-size-larger: 20px;
+  --font-size-big: 24px;
+  --font-size-bigger: 28px;
+  --font-size-display: 32px;
+  --font-size-display1: 36px;
+  --font-size-cosmic: 60px;
+  --font-transform-lowercase: lowercase;
+  --font-transform-uppercase: uppercase;
+  --font-transform-capitalize: capitalize;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Letter Space */
+  --letter-spacing-xs: -0.2px;
+  --letter-spacing-xxs: -0.4px;
+
+  /* Line Height */
+  --line-height-tight: 114%;
+  --line-height-fair: 124%;
+  --line-height-distant: 136%;
+
+  /* flex layout */
+  --display-flex: flex;
+  --flex-row: row;
+  --flex-column: column;
+  --content-center: center;
+  --content-between: space-between;
+  --content-around: space-around;
+  --content-start: flex-start;
+  --content-end: flex-end;
+
+  --w50: 50%;
+  --w100: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+[tabindex="-1"]:focus {
+  outline: 2px solid var(--primary-base-01) !important;
+}
+
+/* Global rules */
+
+html {
+  scroll-behavior: smooth;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  -moz-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover,
+a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom;
+}
